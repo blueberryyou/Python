@@ -42,13 +42,13 @@ for index, item in enumerate(name):
     print(index + 1, item)
 
 # 3333333333333333333
-name="玄德出马，左有云长，右有翼德"
-count=name.count(name[6])
-new= name.find("德",5)
+name = "玄德出马，左有云长，右有翼德"
+count = name.count(name[6])
+new = name.find("德", 5)
 len(name[0:2])
-surname='赵构钱丽孙周可安李冯赵周同吴钱郑周'
+surname = '赵构钱丽孙周可安李冯赵周同吴钱郑周'
 print(surname.count("周"))
-print(surname.count("冯",3))
-name="www.mingrisoftr.com,www.huawei.com,www.jd.com"
-print(name.count("com",5))
+print(surname.count("冯", 3))
+name = "www.miniaturising.com,www.huawei.com,www.jd.com"
+print(name.count("com", 5))
 print(name.count("www"))

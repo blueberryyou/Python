@@ -10,7 +10,7 @@ for i in range(4):
     else:
         x = x + str(random.randint(1, 9))
 print("验证码：{}".format(x))
-y = eval(input("请输入验证码:"))
+y = str(input("请输入验证码:"))
 while y != x:
     print("验证码错误！")
     x = ""
@@ -24,5 +24,5 @@ while y != x:
         else:
             x = x + str(random.randint(1, 9))
     print("验证码：{}".format(x))
-    y = eval(input("请输入验证码:"))
+    y = str(input("请输入验证码:"))
 print("验证码正确！")
