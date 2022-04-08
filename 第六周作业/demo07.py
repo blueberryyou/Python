@@ -4,7 +4,6 @@ def getText():
     for ch in '!"#$%()*+-/,./<>?;:@[]{}|\~^':
         txt=txt.replace(ch,"")
     return txt
-
 hamletTxt=getText()
 words=hamletTxt.split()
 counts={}
