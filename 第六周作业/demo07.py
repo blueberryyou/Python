@@ -1,3 +1,4 @@
+#其他字符转换为空格，所有英文转成小写
 def getText():
     txt=open("hamlet.txt","r").read()
     txt=txt.lower()
