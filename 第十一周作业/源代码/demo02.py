@@ -1,0 +1,11 @@
+import tkinter as tk
+root = tk.Tk()
+root.title('Blue')
+root.geometry('300x150')
+w1 = tk.Label(root, text="确认退出本窗口吗？")
+b1= tk.Button(root,text="我再想想")
+b2= tk.Button(root,text="果断退出")
+w1.pack()
+b1.place(relx = 1, x =-90, y = 80, anchor = 'ne')
+b2.place(relx = 1, x =-15, y = 80, anchor = 'ne')
+root.mainloop()
